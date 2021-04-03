@@ -1,0 +1,12 @@
+@mixin event_width($width_event) {
+    width: $width_event;
+}
+@mixin event_transition_left($width_event) {
+    left: calc(50% - #{$width_event} - 7%);
+}
+@mixin event_transition_right($width_event) {
+    right: calc(50% - #{$width_event} - 6%);
+}
+@mixin event_transition_right_for_all() {
+    left: calc(50% - 90px);
+}

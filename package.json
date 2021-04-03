@@ -1,0 +1,34 @@
+{
+  "name": "black_and_white_landing",
+  "version": "1.0.0",
+  "description": "site with scss, build with gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "imagemin-pngquant": "^9.0.2",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.8",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "fibers": "^5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 40 versions",
+    "ie > 6"
+  ]
+}

@@ -1,0 +1,104 @@
+@font-face {
+    font-family:'HelveticaNeueLT Pro 45 Lt';
+    src: url('../fonts/HelveticaNeueLTPro-Lt.eot');
+	src: url('../fonts/HelveticaNeueLTPro-Lt.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTPro-Lt.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueLTPro-Lt.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTPro-Lt.ttf') format('truetype'),
+		url('../fonts/HelveticaNeueLTPro-Lt.otf') format('opentype'),
+		url('../fonts/HelveticaNeueLTPro-Lt.svg#HelveticaNeueLTPro-Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'HelveticaNeueLT Pro 55 Roman';
+    src: url('../fonts/HelveticaNeueLTPro-Roman.eot');
+	src: url('../fonts/HelveticaNeueLTPro-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTPro-Roman.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueLTPro-Roman.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTPro-Roman.ttf') format('truetype'),
+		url('../fonts/HelveticaNeueLTPro-Roman.otf') format('opentype'),
+		url('../fonts/HelveticaNeueLTPro-Roman.svg#HelveticaNeueLTPro-Roman') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'HelveticaNeueLT Pro 65 Md';
+    src: url('../fonts/HelveticaNeueLTPro-Md.eot');
+	src: url('../fonts/HelveticaNeueLTPro-Md.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTPro-Md.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueLTPro-Md.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTPro-Md.ttf') format('truetype'),
+		url('../fonts/HelveticaNeueLTPro-Md.otf') format('opentype'),
+		url('../fonts/HelveticaNeueLTPro-Md.svg#HelveticaNeueLTPro-Md') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Roboto';
+    src: url('../fonts/Roboto.eot');
+	src: url('../fonts/Roboto.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Roboto.woff2') format('woff2'),
+		url('../fonts/Roboto.woff') format('woff'),
+		url('../fonts/Roboto.ttf') format('truetype'),
+		url('../fonts/Roboto.otf') format('opentype'),
+		url('../fonts/Roboto.svg#Roboto') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2044;
+}
+
+@font-face {
+    font-family:'Merriweather Light';
+    src: url('../fonts/Merriweather Light Italic.eot');
+	src: url('../fonts/Merriweather Light Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Merriweather Light Italic.woff2') format('woff2'),
+		url('../fonts/Merriweather Light Italic.woff') format('woff'),
+		url('../fonts/Merriweather Light Italic.ttf') format('truetype'),
+		url('../fonts/Merriweather Light Italic.otf') format('opentype'),
+		url('../fonts/Merriweather Light Italic.svg#Merriweather Light Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2044;
+}
+
+@font-face {
+    font-family:'Montserrat Light';
+    src: url('../fonts/Montserrat Light.eot');
+	src: url('../fonts/Montserrat Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat Light.woff2') format('woff2'),
+		url('../fonts/Montserrat Light.woff') format('woff'),
+		url('../fonts/Montserrat Light.ttf') format('truetype'),
+		url('../fonts/Montserrat Light.otf') format('opentype'),
+		url('../fonts/Montserrat Light.svg#Montserrat Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2044;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url('../fonts/Montserrat Regular.eot');
+	src: url('../fonts/Montserrat Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat Regular.woff2') format('woff2'),
+		url('../fonts/Montserrat Regular.woff') format('woff'),
+		url('../fonts/Montserrat Regular.ttf') format('truetype'),
+		url('../fonts/Montserrat Regular.otf') format('opentype'),
+		url('../fonts/Montserrat Regular.svg#Montserrat Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2044;
+}
