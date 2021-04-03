@@ -1,16 +1,16 @@
 'use strict';
 
 const gulp       = require('gulp'),
-		watch        = require('gulp-watch'),
+    watch        = require('gulp-watch'),
     postcss      = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
-		uglify       = require('gulp-uglify'), //Minify JavaScript with UglifyJS3
-		sass         = require('gulp-sass'),
+    uglify       = require('gulp-uglify'), //Minify JavaScript with UglifyJS3
+    sass         = require('gulp-sass'),
     Fiber        = require('fibers'),
-		sourcemaps   = require('gulp-sourcemaps'),
-		cssmin       = require('gulp-clean-css'),
-		imagemin     = require('gulp-imagemin'),
-		pngquant     = require('imagemin-pngquant');
+    sourcemaps   = require('gulp-sourcemaps'),
+    cssmin       = require('gulp-clean-css'),
+    imagemin     = require('gulp-imagemin'),
+    pngquant     = require('imagemin-pngquant');
 		
 sass.compiler = require('sass'); // Dart Sass
 
