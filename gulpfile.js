@@ -1,16 +1,17 @@
 'use strict';
 
 const gulp       = require('gulp'),
-    watch        = require('gulp-watch'),
+		watch        = require('gulp-watch'),
     postcss      = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
-    uglify       = require('gulp-uglify'), //Minify JavaScript with UglifyJS3
-    sass         = require('gulp-sass'),
+		uglify       = require('gulp-uglify'), //Minify JavaScript with UglifyJS3
+		sass         = require('gulp-sass'),
     Fiber        = require('fibers'),
-    sourcemaps   = require('gulp-sourcemaps'),
-    cssmin       = require('gulp-clean-css'),
-    imagemin     = require('gulp-imagemin'),
-    pngquant     = require('imagemin-pngquant');
+		sourcemaps   = require('gulp-sourcemaps'),
+		cssmin       = require('gulp-clean-css'),
+		imagemin     = require('gulp-imagemin'),
+		pngquant     = require('imagemin-pngquant'),
+		babel = require('gulp-babel');
 		
 sass.compiler = require('sass'); // Dart Sass
 
@@ -46,6 +47,9 @@ gulp.task('html:build', function () {
 gulp.task('js:build', function () {
   return gulp.src(path.src.js) 
       .pipe(sourcemaps.init())
+      .pipe(babel({
+            presets: ['@babel/env']
+        }))
       .pipe(uglify())
       .pipe(sourcemaps.write())
       .pipe(gulp.dest(path.build.js));
